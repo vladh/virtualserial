@@ -1,0 +1,7 @@
+[package]
+name = "virtualserial"
+version = "0.1.0"
+authors = ["Vlad-Ștefan Harbuz <vlad@vladh.net>"]
+
+[dependencies]
+clap = "2.26.0"

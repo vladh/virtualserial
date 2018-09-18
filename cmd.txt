@@ -1,0 +1,1 @@
+sudo socat -d -d -d -d -lf /tmp/socat pty,link=master,raw,echo=0,ispeed=110,ospeed=110,user=$(id -u),group=$(id -g) pty,link=slave,raw,echo=0,ispeed=110,ospeed=110,user=$(id -u),group=$(id -g)
