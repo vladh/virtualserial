@@ -4,7 +4,17 @@ This package allows you to create virtual serial ports on macOS. It uses socat, 
 
 ## Installation
 
-Run `brew install virtualserial`.
+Until it makes sense to put `virtualserial` on Homebrew, I've included a precompiled binary. You just need to install socat.
+
+```
+brew install socat
+```
+
+Then clone this repo and:
+
+```
+make install
+```
 
 ## Usage
 
