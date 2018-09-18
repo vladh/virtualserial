@@ -1,6 +1,6 @@
 # virtualserial
 
-This package allows you to create virtual serial ports on macOS. It uses socat, and is successor of sorts to [MacOSXVirtualSerialPort](https://github.com/clokey/PublicCode/tree/master/MacOSXVirtualSerialPort).
+This package allows you to create virtual serial ports on macOS. It uses socat, and is a successor of sorts to [MacOSXVirtualSerialPort](https://github.com/clokey/PublicCode/tree/master/MacOSXVirtualSerialPort).
 
 ## Installation
 
