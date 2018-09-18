@@ -39,7 +39,7 @@ You can create multiple pairs and keep track of them.
 ```
 $ virtualserial show
 Current instances:
-[15817], master -> slave at baud 9600<Paste>
+[15817], master -> slave at baud 9600
 ```
 
 Kill that pair:
