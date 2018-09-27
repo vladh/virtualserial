@@ -4,6 +4,7 @@ use clap::{Arg, App, SubCommand};
 use std::fmt;
 use std::fs::File;
 use std::fs::OpenOptions;
+use std::path::Path;
 use std::io::prelude::*;
 use std::io;
 use std::process::Command;
@@ -67,7 +68,12 @@ fn stateline_to_instance(stateline: String) -> State {
 }
 
 fn get_state() -> Vec<State> {
-  let mut file = File::open(STATEFILE).expect("File not found");
+  let mut file;
+  if Path::new(STATEFILE).exists() {
+    file = File::open(STATEFILE).expect("File not found");
+  } else {
+    file = File::create(STATEFILE).expect("Could not create file");
+  }
 
   let mut contents = String::new();
   file
