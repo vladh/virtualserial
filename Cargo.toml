@@ -1,7 +1,7 @@
 [package]
 name = "virtualserial"
 version = "1.0.1"
-authors = ["Vlad-Ștefan Harbuz <vlad@vladh.net>"]
+authors = ["Vlad-Stefan Harbuz <vlad@vlad.website>"]
 
 [dependencies]
 clap = "2.26.0"

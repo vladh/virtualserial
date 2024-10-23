@@ -158,7 +158,7 @@ fn remove_instance(pid: String) {
 fn main() {
   let matches = App::new("virtualserial")
     .version("0.1.0")
-    .author("Vlad-Ștefan Harbuz <vlad@vladh.net>")
+    .author("Vlad-Stefan Harbuz <vlad@vlad.website>")
     .about("Virtual serial ports for macOS.")
     .subcommand(
       SubCommand::with_name("show")
